@@ -1,0 +1,28 @@
+.container {
+  background: rgb(4, 2, 2);
+  width: 700px;
+  margin: 70px 0px 0px 50px;
+  display: grid;
+  /* grid-template-columns: 3fr 2fr 1fr; */
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: 150px 100px;
+  gap: 20px;
+}
+.items1 {
+  background: orange;
+}
+.items2 {
+  background: rgb(0, 102, 255);
+}
+.items3 {
+  background: rgb(255, 0, 55);
+}
+.items4 {
+  background: rgb(55, 255, 0);
+}
+.items5 {
+  background: rgb(255, 0, 162);
+}
+.items6 {
+  background: rgb(0, 255, 247);
+}
